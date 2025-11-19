@@ -1,0 +1,61 @@
+Project_ID,Project_Name,Category,Required_Skills,Required_Interests,Difficulty
+1,Rumor and Fake News Detection System using AI,AI & Security,"Python, NLP, TensorFlow, Data Analysis","AI, Cybersecurity, Social Media",Hard
+2,Data Protection System using Blockchain,Security,"Blockchain, Python, Cryptography, Smart Contracts","Blockchain, Security, Web Development",Hard
+3,Phishing Website Detection Tool,Security,"Python, Machine Learning, Web Scraping","Cybersecurity, Web Development",Medium
+4,Fake Product Review Detection,AI & Business,"Python, NLP, Data Analysis","AI, E-commerce, Data Analysis",Medium
+5,Fake Currency Detection,Security & AI,"Python, OpenCV, Computer Vision","Computer Vision, Security, AI",Hard
+6,Secure E-mail System,Security,"Python, Cryptography, Network Security","Security, Web Development, Networking",Medium
+7,Smart Contracts,Blockchain,"Solidity, Blockchain, Web3","Blockchain, Web Development, Finance",Hard
+8,Network Anomaly Detection System for Insider Attacks,Security,"Python, Machine Learning, Network Analysis","Cybersecurity, Networking, AI",Hard
+9,Operating System Vulnerability Analysis and Solutions,Security,"Python, Bash, Security Tools","Cybersecurity, Operating Systems",Medium
+10,Kernel Guard Lite (Syscall Anomaly Radar),Security,"C++, Linux, System Programming","Cybersecurity, Operating Systems",Hard
+11,Seelmage (Container Image Risk Scanner with AI),Security & AI,"Python, Docker, Machine Learning","DevOps, Security, AI",Medium
+12,Data Leak Hints (Email Attachment Policy Checker),Security,"Python, NLP, Email Protocols","Security, Data Protection",Medium
+13,Password less Authentication with WebAuthn,Security,"JavaScript, WebAuthn, Web Development","Security, Web Development",Medium
+14,Interactive Educational Platform using XR,Education & VR,"Unity3D, C#, VR/AR Development","Game Development, Education, VR/AR",Hard
+15,Personalized Learning Recommendation System,AI & Education,"Python, Machine Learning, Data Analysis","AI, Education, Web Development",Medium
+16,Automated Essay Grading System,AI & Education,"Python, NLP, Machine Learning","AI, Education, NLP",Hard
+17,Smart Campus System (IoT-based),IoT,"Arduino, Python, Sensors, Mobile Development","IoT, Mobile Development, Smart Systems",Medium
+18,Smart Library System with Predictive Book Suggestions,AI & IoT,"Python, Machine Learning, RFID","AI, IoT, Education",Medium
+19,Next-Term Course Recommender,AI & Education,"Python, Machine Learning, Data Analysis","AI, Education, Web Development",Easy
+20,Code Similarity Checker for Assignments,Education & AI,"Python, AST, Code Analysis","Education, Programming, AI",Medium
+21,Light Programming Auto-Grader,Education,"Python, Testing Frameworks, Java","Education, Programming",Easy
+22,Sidecut (Lecture Video Summarizer),AI & Education,"Python, NLP, Speech Recognition","AI, Education, Video Processing",Hard
+23,Capstone Match (Topic-Student Recommender),AI & Education,"Python, Machine Learning, Web Development","AI, Education, Web Development",Medium
+24,Arabic Voice Assistant for Patients,Healthcare & AI,"Python, NLP, Speech Recognition, Arabic","AI, Healthcare, NLP",Hard
+25,Healthy Lifestyle Tracking App with Recommendations,Healthcare & Mobile,"Flutter, Python, Mobile Development","Mobile Development, Healthcare, AI",Medium
+26,AI-Powered Mental Health Chatbot,Healthcare & AI,"Python, NLP, Machine Learning","AI, Healthcare, NLP",Hard
+27,Disease Prediction from Symptoms using Neural Networks,Healthcare & AI,"Python, Neural Networks, Data Science","AI, Healthcare, Data Science",Hard
+28,EEG Signal Classification for Brain-Computer Interface,Healthcare & AI,"Python, Signal Processing, Machine Learning","AI, Healthcare, Signal Processing",Hard
+29,Virtual Assistant for Daily Tasks,AI & Mobile,"Python, NLP, Mobile Development","AI, Mobile Development, NLP",Medium
+30,Healthy Meal Recommender,AI & Healthcare,"Python, Machine Learning, Mobile Development","AI, Healthcare, Mobile Development",Medium
+31,Medical Image Segmentation for CT scans,Healthcare & AI,"Python, OpenCV, Deep Learning","AI, Healthcare, Computer Vision",Hard
+32,Intelligent Traffic Management System using Computer Vision,IoT & AI,"Python, OpenCV, Computer Vision","AI, IoT, Computer Vision",Hard
+33,Campus Guide Robot for Visually Impaired Students,IoT & Robotics,"Python, Robotics, Computer Vision","Robotics, IoT, AI",Hard
+34,Smart Home and Wireless Applications,IoT,"Arduino, Python, Mobile Development","IoT, Mobile Development, Smart Systems",Medium
+35,Smart Room People Counter,IoT,"Python, OpenCV, Sensors","IoT, Computer Vision",Medium
+36,Smart Invoice Scanner,Business & AI,"Python, OCR, Image Processing","AI, Business, Computer Vision",Medium
+37,Laptop Health Monitor,System Tools,"Python, System Monitoring, Desktop Apps","System Programming, Desktop Apps",Easy
+38,Smart Excel Analyzer,Business & Data,"Python, Pandas, Data Analysis","Data Analysis, Business, Automation",Easy
+39,Shelf Guard (Retail Shelf Anomaly Detection),Business & AI,"Python, OpenCV, Computer Vision","AI, Business, Computer Vision",Medium
+40,WiMap (Campus Wi-Fi Heat mapper),Networking & IoT,"Python, Network Analysis, Data Visualization","Networking, IoT, Data Visualization",Medium
+41,AI-Powered Labor Market Analysis Platform,Business & AI,"Python, Data Analysis, Machine Learning","AI, Business, Data Analysis",Medium
+42,Financial Transaction Fraud Detection System,Finance & AI,"Python, Machine Learning, Data Analysis","AI, Finance, Security",Hard
+43,Customer Churn Prediction System,Business & AI,"Python, Machine Learning, Data Analysis","AI, Business, Data Analysis",Medium
+44,Loan Default Prediction System,Finance & AI,"Python, Machine Learning, Data Analysis","AI, Finance, Risk Analysis",Hard
+45,Online Exam Cheating Detection System,Education & AI,"Python, OpenCV, Audio Processing","AI, Education, Security",Hard
+46,Job Recommendation System based on Skills and Experience,AI & Business,"Python, NLP, Machine Learning","AI, Business, Web Development",Medium
+47,Financial Data Analysis for Investment Prediction,Finance & AI,"Python, Data Analysis, Machine Learning","AI, Finance, Data Analysis",Hard
+48,Freelance Marketplace Platform,Business & Web,"JavaScript, Web Development, Database","Web Development, Business, E-commerce",Medium
+49,Single Product Price Tracker,Business & Web,"Python, Web Scraping, Mobile Development","Web Development, Business, Mobile Development",Easy
+50,Multilingual Machine Translation System,NLP & AI,"Python, NLP, Transformers","AI, NLP, Language Processing",Hard
+51,Arabic Speech-to-Text System,NLP & AI,"Python, Speech Recognition, Arabic","AI, NLP, Language Processing",Hard
+52,Automatic Text Summarization Tool,NLP & AI,"Python, NLP, Machine Learning","AI, NLP, Text Processing",Medium
+53,Data Cleaning Tool using AI,Data & AI,"Python, Data Analysis, Machine Learning","AI, Data Analysis, Automation",Easy
+54,Short-Term Weather Forecasting using Deep Learning,AI & Data,"Python, Deep Learning, Data Analysis","AI, Data Analysis, Forecasting",Hard
+55,Simple Hand Gesture Controller,Computer Vision,"Python, OpenCV, MediaPipe","Computer Vision, AI, Game Development",Medium
+56,Lineage Map (ETL Data Lineage via NLP),Data & NLP,"Python, NLP, Data Processing","Data Analysis, NLP, Business",Hard
+57,Color Safe Studio (Accessible Palettes for Accessibility),Web & Design,"JavaScript, Web Development, UI/UX","Web Development, Design, Accessibility",Easy
+58,DocSnap QA (Document Image Quality Checker),Computer Vision,"Python, OpenCV, Image Processing","Computer Vision, Document Processing",Medium
+59,Photodope AI (Near-Duplicate Image Finder),Computer Vision & AI,"Python, OpenCV, Machine Learning","AI, Computer Vision, Image Processing",Medium
+60,Campus Toxicity Watch (AI-Powered Comment Moderator),NLP & AI,"Python, NLP, Machine Learning","AI, NLP, Social Media",Medium

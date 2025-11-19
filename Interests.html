@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Recommender - Interests</title>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/all.min.css">
+<link rel="stylesheet" href="../css/animate.min.css">
+<link rel="stylesheet" href="../css/bootstrap-icons.min.css">
+<link rel="stylesheet" href="../css/PR-css.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-md navbar-light fixed-top">
+    <div class="container d-flex align-items-center">
+      <a class="navbar-brand">
+        <img src="../imgs/Screenshot 2025-10-10 143923.png" alt="logo" width="130">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+        <ul class="navbar-nav align-items-center mb-2 mb-md-0">
+          <li class="nav-item me-5"><a class="nav-link" href="../html/project recommender.html">Home</a></li>
+          <li class="nav-item me-5"><a class="nav-link active" href="interests.html">Interests</a></li>
+          <li class="nav-item me-5"><a class="nav-link" href="skills.html">Skills</a></li>
+        </ul>
+        <button class="btn btn-danger rounded-pill small-btn px-4 py-1 ms-md-3"
+          onclick="window.location.href='sign in & log in.html'">Sign in</button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section class="first-interests">
+  <div class="container text-center">
+    <h1 class="wow animate__animated animate__swing">Your Interests</h1>
+
+    <!-- Search -->
+    <form id="searchform" class="d-flex justify-content-end align-items-center wow animate__animated animate__backInRight">
+      <input id="searchbox" class="form-control me-2 small-search" type="search" placeholder="Search"/>
+      
+    </form>
+
+    <!-- Checkbox list -->
+    <div class="mt-4" id="list">
+      <label><input type="checkbox" name="interests" value="Accessibility"> Accessibility</label>
+      <label><input type="checkbox" name="interests" value="AI"> AI (Artificial Intelligence)</label>
+      <label><input type="checkbox" name="interests" value="Automation"> Automation</label>
+      <label><input type="checkbox" name="interests" value="Blockchain"> Blockchain</label>
+      <label><input type="checkbox" name="interests" value="Business"> Business</label>
+      <label><input type="checkbox" name="interests" value="Computer Vision"> Computer Vision</label>
+      <label><input type="checkbox" name="interests" value="Cybersecurity"> Cybersecurity</label>
+      <label><input type="checkbox" name="interests" value="Data Analysis"> Data Analysis</label>
+      <label><input type="checkbox" name="interests" value="Data Protection"> Data Protection</label>
+      <label><input type="checkbox" name="interests" value="Data Science"> Data Science</label>
+      <label><input type="checkbox" name="interests" value="Data Visualization"> Data Visualization</label>
+      <label><input type="checkbox" name="interests" value="Design"> Design</label>
+      <label><input type="checkbox" name="interests" value="Desktop Apps"> Desktop Apps</label>
+      <label><input type="checkbox" name="interests" value="DevOps"> DevOps</label>
+      <label><input type="checkbox" name="interests" value="Document Processing"> Document Processing</label>
+      <label><input type="checkbox" name="interests" value="E-commerce"> E-commerce</label>
+      <label><input type="checkbox" name="interests" value="Education"> Education</label>
+      <label><input type="checkbox" name="interests" value="Finance"> Finance</label>
+      <label><input type="checkbox" name="interests" value="Forecasting"> Forecasting</label>
+      <label><input type="checkbox" name="interests" value="Game Development"> Game Development</label>
+      <label><input type="checkbox" name="interests" value="Healthcare"> Healthcare</label>
+      <label><input type="checkbox" name="interests" value="Image Processing"> Image Processing</label>
+      <label><input type="checkbox" name="interests" value="IoT"> IoT (Internet of Things)</label>
+      <label><input type="checkbox" name="interests" value="Language Processing"> Language Processing</label>
+      <label><input type="checkbox" name="interests" value="Mobile Development"> Mobile Development</label>
+      <label><input type="checkbox" name="interests" value="Networking"> Networking</label>
+      <label><input type="checkbox" name="interests" value="NLP"> NLP (Natural Language Processing)</label>
+      <label><input type="checkbox" name="interests" value="Operating Systems"> Operating Systems</label>
+      <label><input type="checkbox" name="interests" value="Programming"> Programming</label>
+      <label><input type="checkbox" name="interests" value="Risk Analysis"> Risk Analysis</label>
+      <label><input type="checkbox" name="interests" value="Robotics"> Robotics</label>
+      <label><input type="checkbox" name="interests" value="Security"> Security</label>
+      <label><input type="checkbox" name="interests" value="Signal Processing"> Signal Processing</label>
+      <label><input type="checkbox" name="interests" value="Smart Systems"> Smart Systems</label>
+      <label><input type="checkbox" name="interests" value="Social Media"> Social Media</label>
+      <label><input type="checkbox" name="interests" value="System Programming"> System Programming</label>
+      <label><input type="checkbox" name="interests" value="Text Processing"> Text Processing</label>
+      <label><input type="checkbox" name="interests" value="Video Processing"> Video Processing</label>
+      <label><input type="checkbox" name="interests" value="VR/AR"> VR/AR (Virtual Reality / Augmented Reality)</label>
+      <label><input type="checkbox" name="interests" value="Web Development"> Web Development</label>
+    </div>
+
+    <div class="buttons-container d-flex justify-content-end gap-3 mt-3">
+      <button id="button1p2" class="btn btn-danger rounded-pill small-btn px-4 py-1"
+        onclick="window.location.href='project recommender.html'">Back</button>
+      <button id="button2p2" class="btn btn-danger rounded-pill small-btn px-4 py-1">Next</button>
+    </div>
+  </div>
+</section>
+
+<script src="../javascript/jquery.slim.min.js"></script>
+<script src="../javascript/bootstrap.bundle.min.js"></script>
+<script src="../javascript/all.min.js"></script>
+<script src="../javascript/wow.min.js"></script>
+<script src="../javascript/PR-js.js" defer></script>
+</body>
+</html>

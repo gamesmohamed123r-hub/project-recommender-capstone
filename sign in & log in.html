@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project Recommender</title>
+                         
+                           <!-- Bootstrap css -->
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+                       <!-- fonts library bootstrap  -->
+<link rel="stylesheet" href="../css/all.min.css">
+                    <!-- animations library bootstrap -->
+<link rel="stylesheet" href="../css/animate.min.css">
+                     <!-- icons library bootstrap -->
+<link rel="stylesheet" href="../css/bootstrap-icons.min.css">
+
+                           <!-- link css folder -->
+<link rel="stylesheet" href="../css/PR-css.css">
+</head>
+
+
+<body>
+  
+                      <!-- header navbar and icon  -->
+<header>
+  <nav class="navbar navbar-expand-md navbar-light  fixed-top">
+    <div class="container d-flex align-items-center">
+
+                                   <!-- Logo-->
+      <a class="navbar-brand">
+        <img src="../imgs/Screenshot 2025-10-10 143923.png" alt="logo" width="130" height="auto">
+      </a>
+
+                            <!-- Hamburger Button (for mobile) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+                        <!-- Navbar links + Sign In -->
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+        <ul class="navbar-nav align-items-center mb-2 mb-md-0">
+          <li class="nav-item me-5">
+            <a class="nav-link" href="../html/project recommender.html">Home</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="interests.html">Interests</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="skills.html">Skills</a>
+          </li>
+        </ul>
+                                    <!-- the sign in button -->
+       <button class="btn btn-danger rounded-pill small-btn px-4 py-1 ms-md-3" onclick="window.location.href='sign in & log in.html'">Sign in</button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+                          <!-- form sign&login -->
+<section class="accounts">
+  <div class="container acc">
+    <form id="accountForm">
+      <input type="email" id="email" placeholder="   Enter your email">
+      <input type="password" id="password" placeholder="   Enter your password">
+    </form>
+
+    <div class="container buttons">
+      <button id="buttonform1" type="button">Login</button>
+      <button id="buttonform2" type="button">Create Account</button>
+    </div>
+  </div>
+</section>
+
+<script>
+  const form = document.getElementById("accountForm");
+  const createBtn = document.getElementById("buttonform2");
+  const loginBtn = document.getElementById("buttonform1");
+
+  let isCreating = false; 
+  createBtn.addEventListener("click", () => {
+    if (!isCreating) {
+    
+      form.innerHTML = `
+        <input type="text" id="name" placeholder="   Name">
+        <input type="email" id="email" placeholder="   Enter your email">
+        <input type="password" id="password" placeholder="   Enter your password">
+        <input type="number" id="number" placeholder="   Enter your number">
+        <input type="text" id="country" placeholder="   Enter your country">
+      `;
+      createBtn.textContent = "Back to Login";
+      loginBtn.textContent = "Create Account";
+      isCreating = true;
+    } else {
+      //Login
+      form.innerHTML = `
+        <input type="email" id="email" placeholder="   Enter your email">
+        <input type="password" id="password" placeholder="   Enter your password">
+      `;
+      createBtn.textContent = "Create Account";
+      loginBtn.textContent = "Login";
+      isCreating = false;
+    }
+  });
+</script>
+                          
+                                    
+
+
+                                <!-- Bootstrap js -->
+ <!-- 1-->   <script src="../javascript/jquery.slim.min.js"></script>
+ <!-- 2-->   <script src="../javascript/bootstrap.bundle.min.js"></script>
+ <!-- 3-->   <script src="../javascript/all.min.js"></script>
+ <!-- 4-->  <script src="../javascript/wow.min.js"></script>
+                              <!-- link js -->
+<script src="../javascript/PR-js.js" defer></script>
+</body>
+
+
+</html>
