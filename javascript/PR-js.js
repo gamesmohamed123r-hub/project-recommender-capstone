@@ -111,18 +111,17 @@ document.addEventListener("DOMContentLoaded", function() {
 async function fetchRecommendations(interests, skills, container) {
     try {
         // Connect to the server we created
-        const response = await fetch('http://127.0.0.1:5000/recommend', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            // Send the interests and skills in the request body
-            body: JSON.stringify({ 
-                interests: interests, 
-                skills: skills 
-            })
-        });
-
+      const response = await fetch('http://gamesmohamed123rhub.pythonanywhere.com/recommend', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    // Send the interests and skills in the request body
+    body: JSON.stringify({ 
+        interests: interests, 
+        skills: skills 
+    })
+});
         if (!response.ok) {
             // This will be 'true' if the Python server crashed (like the 500 error)
             throw new Error(`HTTP error! status: ${response.status}`);
