@@ -1,11 +1,13 @@
 import csv
 import os
-from flask import Flask, request, jsonify
-from flask_cors import CORS
+from flask import Flask, jsonify, request
+from flask_cors import CORS  # <--- تأكد من استيراد هذه المكتبة
 
-# --- إعداد السيرفر ---
+# تهيئة التطبيق
 app = Flask(__name__)
-CORS(app) 
+CORS(app)  # <--- إضافة هذا السطر لتفعيل CORS للكل
+
+# ... باقي كودك ...
 
 # --- 1. تحميل الداتا من ملف الـ CSV ---
 def load_projects_from_csv(filename="projects.csv"):
