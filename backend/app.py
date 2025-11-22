@@ -10,19 +10,12 @@ CORS(app)  # <--- إضافة هذا السطر لتفعيل CORS للكل
 # ... باقي كودك ...
 
 # --- 1. تحميل الداتا من ملف الـ CSV ---
-# --- 1. تحميل الداتا من ملف الـ CSV ---
 def load_projects_from_csv(filename="projects.csv"):
     projects = []
-    
-    # 🛑 حذف السطرين الذين يستخدمان المسار النسبي:
-    # script_dir = os.path.dirname(__file__)
-    # file_path = os.path.join(script_dir, filename)
-
-    # ✅ واستبدالهما بمسار مطلق لملف CSV على PythonAnywhere:
-    file_path = "/home/gamesmohamed123rhub/project-recommender-capstone/backend/projects.csv"
+    script_dir = os.path.dirname(__file__)
+    file_path = os.path.join(script_dir, filename)
     
     try:
-        # ... باقي الكود ...
         
         with open(file_path, mode='r', encoding='ISO-8859-1') as file:
             csv_reader = csv.DictReader(file)
